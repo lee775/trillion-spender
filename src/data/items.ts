@@ -132,6 +132,7 @@ export const SHOP_ITEMS: ShopItem[] = [
   { id: "w14", name: "지구본 실물 크기 제작", price: 100_000_000_000_000, category: "황당한것", description: "지구 옆에 지구 하나 더. 혼란 유발", emoji: "🌍", luxuryLevel: 8 },
   { id: "w15", name: "모든 신호등 파란불 고정", price: 10_000_000_000_000, category: "황당한것", description: "교통사고 책임은 안 짐", emoji: "🚦", luxuryLevel: 5 },
   { id: "w16", name: "VVIP 동물병원 평생 진찰권", price: 7_000_000_000_000, category: "황당한것", description: "못 고치는 병이 없음. 공룡도 부활시켜 줌", emoji: "🏥", luxuryLevel: 5 },
+  { id: "w17", name: "전세계 유기견 보호소", price: 15_000_000_000_000, category: "황당한것", description: "195개국에 초호화 보호소 설립. 강아지가 사람보다 잘 삼", emoji: "🐕", luxuryLevel: 6 },
 
   // ===================== 음식 (12개) =====================
   { id: "f01", name: "미슐랭 3스타 전속 셰프", price: 100_000_000_000, category: "음식", description: "라면 끓여달라고 해도 됨", emoji: "👨‍🍳", luxuryLevel: 0 },
@@ -201,7 +202,7 @@ export const HIDDEN_TITLES: HiddenTitle[] = [
   { id: "t02", name: "🌌 우주 황제", description: "우주 아이템 5개 이상 보유", requiredItems: ["s01", "s02", "s03", "s04", "s05"] },
   { id: "t03", name: "🏠 부동산 킹", description: "부동산 5개 이상 보유", requiredItems: ["r01", "r02", "r03", "r04", "r05"] },
   { id: "t04", name: "🚗 차고지 왕", description: "탈것 5개 이상 보유", requiredItems: ["v01", "v02", "v03", "v04", "v05"] },
-  { id: "t05", name: "🤯 완전 미친 사람", description: "황당한것 전부 구매", requiredItems: ["w01", "w02", "w03", "w04", "w05", "w06", "w07", "w08", "w09", "w10", "w11", "w12", "w13", "w14", "w15", "w16"] },
+  { id: "t05", name: "🤯 완전 미친 사람", description: "황당한것 전부 구매", requiredItems: ["w01", "w02", "w03", "w04", "w05", "w06", "w07", "w08", "w09", "w10", "w11", "w12", "w13", "w14", "w15", "w16", "w17"] },
   { id: "t06", name: "💰 천조 마스터", description: "모든 아이템 구매", requiredItems: [] },
   { id: "t07", name: "🎨 예술혼", description: "모나리자 + 공룡 화석 + 빈티지 와인", requiredItems: ["l03", "l06", "l07"] },
   { id: "t08", name: "🌍 세계 정복자", description: "두바이 섬 + 모나코 해안 + 하와이 화산섬", requiredItems: ["r04", "r05", "r08"] },
